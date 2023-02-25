@@ -4,5 +4,6 @@
 
 desktop version :
 
-![image](https://user-images.githubusercontent.com/117738625/221347335-5eaf34ad-3407-468e-8e12-21bcb0393a4b.png)
+![image](https://user-images.githubusercontent.com/117738625/221347775-c5080ea7-a73b-450d-bcf8-e477f8ed449d.png)
+
 
