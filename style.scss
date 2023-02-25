@@ -1,0 +1,295 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(bg-image/mainBg.png);
+
+  height: 96vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*navbar */
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  /*font-size: 13px;*/
+}
+
+.ch-navbar-font-size {
+  font-size: 13px;
+}
+
+/* modal*/
+div .modal-header {
+  color: black;
+}
+
+img.logo-img {
+  fill: black;
+}
+
+form {
+  color: black;
+}
+
+/* Button trigger modal sign up */
+.ch-button-size {
+  font-size: 13px;
+}
+
+.ch-nodeco {
+  text-decoration: none;
+  color: white;
+    &:hover {
+  color: inherit;
+  }
+}
+
+/* banner(text intro)  */
+.ch-banner-section {
+  display: flexbox;
+}
+
+.ch-banner-title {
+  font-weight: 700;
+}
+
+div .ch-banner-lighter {
+  font-size: 27px;
+  font-weight: 100;
+
+}
+
+.ch-banner-paragraph {
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.ch-banner-button-size {
+  font-size: 12px;
+}
+
+/* buttons onepager whitepappers*/
+
+.ch-space {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.ch-padding {
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.ch-btn1-color {
+  background-color: beige;
+  color: blueviolet;
+  border: none;
+    &:hover {
+  background-color: rgb(144, 123, 151);
+  }
+}
+
+.ch-btn2-color {
+  background-color: rgba(124, 51, 192, 0.925);
+  color: beige;
+  border: none;
+    &:hover {
+  background-color: rgb(90, 39, 138);
+  }
+}
+
+/* box-rectangle */ 
+
+.ch-box-rectangle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: rgba(30, 1, 36, 0.582);
+  border-radius: 1%;
+  padding: 2rem;
+
+  width: 60%;
+  height: auto;
+
+  color: white;
+  align-items: center;
+
+  transform: translateX(-4rem) translateY(-2rem);
+
+    & h5 {
+  text-align: center;
+  font-weight: 600;
+  }
+
+  & .ch-box-subtitle {
+  font-size: 13px;
+  }
+} 
+
+
+/*JS */
+
+.ch-countdown {
+  display: flex;
+  justify-content: center;
+  font-size: 11px;
+
+    &-days {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      color: black;
+      background-color: white;
+      border-radius: 0.25rem;
+      
+    }
+
+    &-hours {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      color: black;
+      background-color: white;
+      border-radius: 0.25rem;
+      
+    }
+
+    &-minutes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      color: black;
+      background-color: white;
+      border-radius: 0.25rem;
+      
+    }
+
+    &-seconds {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      color: black;
+      background-color: white;
+      border-radius: 0.25rem;
+      
+      
+    }
+}
+
+/* loading bar*/
+
+.ch-run-down div p {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.ch-box-rectangle .ch-bar-loading {
+  display: flex;
+  width: 100%;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+
+    &.ch-bar-colored {
+    width: 70%;
+    height: inherit;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #1fe0cde1, #099b88c0, #21f54fe3);
+    display: flex;
+    }
+
+    &.ch-max-money {
+    font-size: 8px;
+    transform: translateX(-1.3rem) translateY(0.6rem);
+    &-last-child {
+    transform: translateX(2.8rem);
+    }
+}
+    &.ch-description {
+    font-size: 8px;
+    color: rgba(255, 255, 255, 0.596);
+    margin-left: -8.9rem;
+    }
+
+    &.ch-first-max-money {
+      width: 35%;
+      height: 19px;
+      border-right: 1px solid rgba(255, 255, 255, 0.555);
+      border-width: 2px;
+    }
+
+    &.ch-sec-max-money {
+      width: 25%;
+      height: 19px;
+      border-right: 1px solid rgba(255, 255, 255, 0.555);
+      border-width: 2px;
+    }
+
+    &.ch-goal-money {
+      font-size: 10px;
+      display: flex;
+      margin-left: 1rem;
+    }
+
+    &.ch-bar-subtitle {
+      font-size: 9px;
+    }
+}
+
+/*button*/
+.ch-btn-tokens {
+  box-shadow: 0px 2px 4px rgb(192, 35, 74);
+  font-size: 14px;
+  background-color: rgb(224, 26, 69);
+  border: none;
+
+    &.ch-btn-tokens:hover {
+      background-color: rgb(170, 12, 47);
+      box-shadow: 0px 2px 4px rgb(148, 8, 43);
+    }
+}
+
+/*footer*/
+.footer  {
+  display: flex;
+  font-size: 2rem;
+  position: fixed;
+  z-index: 1;
+  bottom: 1%;
+  left: 50%;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  background-color: rgb(63, 6, 85);
+  align-items: center;
+
+    &.ch-icon-chevron-down {
+    width: 35px;
+    height: 35px;
+    border: 4px solid white;
+    border-radius: 50%;
+    color: #180423;
+    background-color: #fff;
+  
+  
+}  
+}
+.footer a {
+  text-decoration: none;
+}
+
