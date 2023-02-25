@@ -3,4 +3,6 @@
 
 
 desktop version :
-![image](https://user-images.githubusercontent.com/117738625/221347207-0693802a-ca2d-43c3-b8b1-01b67214bf2d.png)
+
+![image](https://user-images.githubusercontent.com/117738625/221347335-5eaf34ad-3407-468e-8e12-21bcb0393a4b.png)
+
