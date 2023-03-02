@@ -1,0 +1,34 @@
+@media screen and (max-width: 500px) {
+
+  h1 {
+    font-size: 20px;
+  }
+
+  div {
+    .ch-banner-lighter {
+      font-size: 13px;
+
+    }
+  }
+
+  .ch-banner-paragraph {
+    font-size: 0.32rem;
+    line-height: .40rem;
+
+  }
+
+
+}
+
+
+@media screend and (max-width:768px) {
+
+  .ch-banner-paragraph {
+    font-size: 0.32rem;
+    line-height: .40rem;
+
+  }
+
+
+}
+

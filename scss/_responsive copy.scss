@@ -1,0 +1,137 @@
+@media screen and (max-width: 500px) {
+  body {
+    background-attachment: fixed;
+
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+  /*
+  .ch-section{
+    width: 80%;
+    margin: auto;
+  }*/
+  div {
+    .ch-banner-lighter {
+      font-size: 13px;
+
+    }
+  }
+
+  .ch-banner-paragraph {
+    font-size: 0.32rem;
+    line-height: .40rem;
+
+  }
+
+
+
+/*
+  .ch-banner-button-size {
+    font-size: 0.33rem;
+  }
+
+
+.ch-box-rectangle{
+  transform: none;
+}
+*/
+}
+
+
+@media screend and (max-width:768px) {
+  body {
+    background-attachment: fixed;
+
+  }
+  /*
+    .ch-section {
+      width: 80%;
+      margin: auto;
+    }
+  .navbar-collapse {
+
+    margin: 0 30%;
+    padding: 0 20px;
+    font-size: 16px;
+    transition: all .3s;
+
+    & ul {
+      text-align: center;
+
+    }
+
+
+  }
+
+
+  h6 {
+    font-size: 14px;
+  }
+*/
+  .ch-banner-paragraph {
+    font-size: 0.32rem;
+    line-height: .40rem;
+
+  }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:1100px) {
+  body {
+    background-attachment: fixed;
+
+  }
+/*
+  .navbar-collapse {
+
+    margin: 0 30%;
+    padding: 0 20px;
+    font-size: 16px;
+    transition: all .3s;
+
+    & ul {
+      text-align: center;
+
+    }
+
+  }
+*/
+
+
+}
+/*
+@media screen and (min-width:1001px) and (max-width:1300px) {
+  body {
+    background-attachment: fixed;
+  }
+
+  .navbar-collapse {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    align-content: center;
+
+    margin: 0 30%;
+    padding: 0 20px;
+    font-size: 16px;
+    transition: all .3s;
+
+    & ul {
+      text-align: center;
+
+
+    }
+
+
+
+  }
+
+
+}
+*/

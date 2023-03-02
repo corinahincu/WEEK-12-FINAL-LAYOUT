@@ -1,0 +1,255 @@
+@import 'navbar';
+@import 'footer';
+@import 'responsive';
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(../bg-image/mainBg.png);
+  background-position: center 106%;
+  background-repeat: no-repeat;
+  background-attachment: fixed ;
+
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+/*banner*/
+.ch-main-page{
+  max-width: 897px;
+  margin: 0 auto;
+  padding: 30px 30px;
+}
+
+
+  .ch-banner-title{
+    font-weight: 700;
+  }
+  .ch-banner-lighter{
+    font-weight: 100;
+    font-size: 27px;
+  }
+
+  .ch-banner-paragraph{
+      font-size: 11px;
+      line-height: 20px;
+      margin-right: 30px;
+    }
+
+/*buttons*/
+.ch-banner-button{
+  font-size: 12px;
+  padding-left: 0;
+    & i{
+      font-size: 1.30rem;
+      margin-right: 0.25rem;
+      margin-left: 0;
+      vertical-align: middle;
+    }
+}
+
+.ch-btn1-color{
+  background-color: beige;
+  color: blueviolet;
+  border: none;
+  line-height: 1.75rem;
+  
+    &:hover{
+      background-color: rgb(144, 123, 151);
+    }
+}
+
+.ch-btn2-color {
+  background-color: rgb(124, 51, 192,0.925);
+  color: beige;
+  border: none;
+  line-height: 1.75rem;
+  &:hover {
+    background-color: rgb(90, 39, 138);
+  }
+
+}
+.ch-space {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.ch-padding {
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/*box-rectangle*/
+
+.ch-box-rectangle {
+
+  background-color: rgba(30, 1, 36, 0.582);
+  padding: 2rem 1.75rem;
+  height: auto;
+
+  color: white;
+
+  //transform: translateX(-4rem) translateY(-2rem);
+    & h5{
+      text-align: center;
+      font-weight: 600;
+    }
+    
+}
+p {
+  &.ch-box-subtitle {
+      font-size: 13px;
+      text-align: center;
+      line-height: -5rem;
+    }
+}
+
+.ch-countdown {
+      display: flex;
+      justify-content: center;
+      font-size: 11px;
+  
+      &-days {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        color: black;
+        background-color: white;
+        border-radius: 0.25rem;
+  
+      }
+  
+      &-hours {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        color: black;
+        background-color: white;
+        border-radius: 0.25rem;
+  
+      }
+  
+      &-minutes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        color: black;
+        background-color: white;
+        border-radius: 0.25rem;
+  
+      }
+  
+      &-seconds {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        color: black;
+        background-color: white;
+        border-radius: 0.25rem;
+  
+  
+      }
+    }
+
+/* loading bar*/
+
+.ch-run-down div p {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.ch-bar-loading {
+  display: flex;
+  width: 100%;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+  .ch-bar-colored {
+    width: 70%;
+    height: inherit;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #1fe0cde1, #099b88c0, #21f54fe3);
+    display: flex;
+  }
+
+  .ch-max-money {
+    font-size: 8px;
+    transform: translateX(1.2rem) translateY(0.6rem);
+
+    &-last-child {
+      transform: translateX(2.8rem);
+    }
+  }
+
+  .ch-description {
+    font-size: 8px;
+    color: rgba(255, 255, 255, 0.596);
+    margin-left: 0.8rem;
+  }
+
+  .ch-first-max-money {
+    width: 35%;
+    height: 19px;
+    border-right: 1px solid rgba(255, 255, 255, 0.555);
+    border-width: 2px;
+  }
+
+  .ch-sec-max-money {
+    width: 25%;
+    height: 19px;
+    border-right: 1px solid rgba(255, 255, 255, 0.555);
+    border-width: 2px;
+  }
+
+  
+
+  .ch-goal-money {
+    font-size: 10px;
+    display: flex;
+    margin-left: 1rem;
+  }
+
+  .ch-bar-subtitle {
+    font-size: 9px;
+    text-align: center;
+  }
+
+
+/*button*/
+.ch-btn-tokens-position{
+
+  align-items: center;
+  box-shadow: 0px 2px 4px rgb(192, 35, 74);
+  &.ch-btn-tokens {
+
+      font-size: 14px;
+      background-color: rgb(224, 26, 69);
+      border: none;
+  
+      &.ch-btn-tokens:hover {
+        background-color: rgb(170, 12, 47);
+        box-shadow: 0px 2px 4px rgb(148, 8, 43);
+      }
+    }
+}
+
+.ch-payment-position{
+  position: relative;
+  text-align: center;
+}
+
+

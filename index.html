@@ -1,42 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="">
-  <title> Cryptoland </title>
+  <title>Cryptoland</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;800;900&family=Oswald:wght@300&family=Space+Mono&display=swap"
-  rel="stylesheet">
-
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;800;900&family=Oswald:wght@300&family=Space+Mono&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-
+  <link rel="stylesheet" href="css/index.min.css">
 </head>
-
 <body>
-
-
+  
   <nav class="navbar navbar-expand-lg navbar-dark justify-content-between ">
     <div class="container-fluid">
       <!-- navbar brand link -->
-      <a class="navbar-brand" href=""><img src="logo-image/Logo_white.svg" alt="Logo" width="40" height="35">Cryptoland</a>
+      <a class="navbar-brand" href=""><img src="logo-image/Logo_white.svg" alt="Logo" width="40"
+          height="35">Cryptoland</a>
       <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-main-menu">
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- main links-->
       <div class="navbar-collapse collapse ch-navbar-font-size" id="navbar-main-menu">
         <ul class="navbar-nav mx-auto align-content-center align-items-center">
-
+  
           <li class="nav-item"><a class="nav-link" href="">About</a></li>
           <li class="nav-item"><a class="nav-link" href="">Services</a></li>
           <li class="nav-item"><a class="nav-link" href="">Road Map</a></li>
@@ -46,49 +42,52 @@
           <li class="nav-item"><a class="nav-link" href="">Team</a></li>
           <li class="nav-item"><a class="nav-link" href="">FAQ</a></li>
           <li class="nav-item"><a class="nav-link" href="">Blog</a></li>
-
+  
         </ul>
-
+  
         <!-- user links-->
         <ul class="navbar-nav">
-
+  
           <!-- here dropdown-->
           <li class="nav-item dropdown">
             <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> RU </a>
-
+  
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
               <li><a class="dropdown-item" href="#">EN</a></li>
               <li><a class="dropdown-item" href="#">IT</a></li>
               <li><a class="dropdown-item" href="#">RO</a></li>
             </ul>
-
+  
           </li>
-
-            <!-- Button trigger modal sign in -->
-            <button type="button" class="btn btn-success mx-2 ch-button-size"  data-bs-toggle="modal" data-bs-target="#user-signIn-modal" >
-              Sign in
-            </button>
-            
-            <!-- Button trigger modal sign up -->
-            <button type="button" class="btn btn-link ch-button-size ch-nodeco " data-bs-toggle="modal" data-bs-target="#user-signUp-modal">
-              Sign up
-            </button>
-
+  
+          <!-- Button trigger modal sign in -->
+          <button type="button" class="btn btn-success mx-2 ch-button-size" data-bs-toggle="modal"
+            data-bs-target="#user-signIn-modal">
+            Sign in
+          </button>
+  
+          <!-- Button trigger modal sign up -->
+          <button type="button" class="btn btn-link ch-button-size ch-nodeco " data-bs-toggle="modal"
+            data-bs-target="#user-signUp-modal">
+            Sign up
+          </button>
+  
         </ul>
       </div>
     </div>
   </nav>
-
+  
   <!-- Modal / form sign in -->
   <div class="modal fade" id="user-signIn-modal">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header ">
-          <h5 class="modal-title" id="exampleModalLabel"> <img src="logo-image/Logo_white.svg" alt="logo" width="40" height="35" class="logo-img"> Please sign in </h5>
+          <h5 class="modal-title" id="exampleModalLabel"> <img src="logo-image/Logo_white.svg" alt="logo" width="40"
+              height="35" class="logo-img"> Please sign in </h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-
+  
           <form>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -103,170 +102,176 @@
               <label class="form-check-label" for="exampleCheck1">Remember me</label>
             </div>
           </form>
-
+  
         </div>
-
+  
         <div class="modal-footer">
           <button type="button" class="btn btn-success" data-bs-dismiss="modal"> Sign in </button>
         </div>
       </div>
     </div>
   </div>
-
-    <!-- Modal / form sign up -->
-    <div class="modal fade" id="user-signUp-modal">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header ">
-            <h5 class="modal-title" id="exampleModalLabel"> <img src="logo-image/Logo_white.svg" alt="logo" width="40"
-                height="35" class="logo-img"> Please sign up </h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-    
-            <form>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">First Name</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Last Name</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-              </div>
-              <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Remember me</label>
-              </div>
-            </form>
-    
-          </div>
-    
-          <div class="modal-footer">
-            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Sign up </button>
-          </div>
+  
+  <!-- Modal / form sign up -->
+  <div class="modal fade" id="user-signUp-modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header ">
+          <h5 class="modal-title" id="exampleModalLabel"> <img src="logo-image/Logo_white.svg" alt="logo" width="40"
+              height="35" class="logo-img"> Please sign up </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+  
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">First Name</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Last Name</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Remember me</label>
+            </div>
+          </form>
+  
+        </div>
+  
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Sign up </button>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- banner(text intro) & rectangular-box (time)  -->
+  <!-- banner (text intro) & rectangular- box (time) -->
 
-    <section class="container mt-3 mt-lg-5 ch-banner-section " >
-      <div class="row flex-lg-nowrap ch-row ">
-        <div class=" col-lg-7 mx-5 px-5 mt-5 "  >
-
-          <h1 class="text-start ch-banner-title mx-5">
-            Cryptoland is ICO
-            <div class="ch-banner-lighter"> for the cryptocurrency business </div>
-          </h1>
-          <p class="ch-banner-paragraph mx-5 my-4">Spend real flights effective anything extra by leading. Mouthwatering leading how real
-            formula
-            also locked-in have can mountain thought. Jumbo plus shine sale.
-          </p>
+  <div class="ch-main-page">
     
-    
-          <div class=" d-flex mx-4 px-2">
-            <button type="button" class="btn btn-link ch-banner-button-size ch-nodeco "> <i class="bi bi-file-earmark-text "></i>
-              Smart Contract
-            </button>
-            <button type="button" class="btn btn-link ch-banner-button-size ch-nodeco " > <i class="bi bi-play-circle"></i>
-              How to buy Tokens
-            </button>
-          </div>
-          
-          <!-- Buttons WHITEPAPPERS & ONEPAGER-->
-          <div class="d-flex mx-4 px-2 my-5">
-            <button type="button" class="btn btn-danger ch-banner-button-size ch-nodeco ch-space ch-padding ch-btn1-color" > 
-              WhitePapers
-            </button>
-            <button type="button" class="btn btn-dark ch-banner-button-size ch-nodeco ch-padding ch-btn2-color "  > 
-              OnePager
-            </button>
-          </div>
+    <div class="row align-items-center">
+      <section class="col-12 col-md-8 ch-banner-section ch-section">
+        
+        <h1 class="text-start ch-banner-title ">
+          Cryptoland is ICO
+          <div class="ch-banner-lighter">For the cryptocurrency business</div>
+        </h1>
+        <p class="ch-banner-paragraph my-4">Spend real flights effective anything extra by leading. Mouthwatering leading
+          how real
+          formula
+          also locked-in have can mountain thought. Jumbo plus shine sale.
+        </p>
+
+        <!-- buttons smart contract & how to buy tokens-->
+        <div >
+          <button type="button" class="btn btn-link my-md-3 ch-banner-button ch-nodeco "> <i class="bi bi-file-earmark-text "></i>
+            Smart Contract
+          </button>
+          <button type="button" class="btn btn-link my-md-3 mx-md-5 ch-banner-button ch-nodeco "> <i class="bi bi-play-circle"></i>
+            How to buy Tokens
+          </button>
         </div>
 
-        <div class="col-lg-5">
-          <div class="ch-box-rectangle">
-            <h5 class="ch-box-title fs-6"> Cryptoland ICO ends:</h5>
-            <br>
-            <p class="ch-box-subtitle">Total raised: 1 864 866$</p>
-            <p id="countdown"></p>
-            <div class="ch-countdown">
-              <div>
-                <div id="ch-countdown-days" class="ch-countdown-days mx-1 fw-bold fs-4"></div>
-                <p class="ch-caption mx-2">Days</p>
-              </div>
-              <div>
-                <div id="ch-countdown-hours" class="ch-countdown-hours mx-1 fw-bold fs-4"></div>
-                <p class="ch-caption mx-2 ">Hours</p>
-              </div>
-              <div>
-                <div id="ch-countdown-minutes" class="ch-countdown-minutes mx-1 fw-bold fs-4"></div>
-                <p class="ch-caption mx-2">Minutes</p>
-              </div>
-              <div>
-                <div id="ch-countdown-seconds" class="ch-countdown-seconds mx-1 fw-bold fs-4"></div>
-                <p class="ch-caption">Seconds</p>
-              </div>
-            </div>
-            
-            <!-- amount of money-->
+        <!-- Buttons WHITEPAPPERS & ONEPAGER-->
+        <div class="my-4 ch-btn-position">
+          <button type="button" class="btn btn-danger px-4 py-2 ch-banner-button ch-nodeco ch-space ch-padding ch-btn1-color">
+            WhitePapers
+          </button>
+          <button type="button" class="btn btn-dark px-4 py-2 ch-banner-button ch-nodeco ch-padding ch-btn2-color ">
+            OnePager
+          </button>
+        </div>
+      </section>
 
+      <section class="col-12 col-md-4 ch-section ">
+        <div class="container-sm ch-box-rectangle">
+
+          <h5 class="ch-box-title pb-3 fs-6"> Cryptoland ICO ends:</h5>
+          <br>
+          <p class="ch-box-subtitle">Total raised: 1 864 866$</p>
+          <p id="countdown"></p>
+          <div class="ch-countdown">
             <div>
-              <div class="d-inline-flex ch-max-money">
-                <p class="mx-2">700K</p>
-                <p class="mx-2">1.5M</p>
-                <p class="mx-2 ch-max-money-last-child">3M</p>
-              </div>
+              <div id="ch-countdown-days" class="ch-countdown-days mx-1 fw-bold fs-5"></div>
+              <p class="ch-caption  p-1 mx-2">Days</p>
             </div>
-            <!--  loading bar -->
-            <div class="ch-bar-loading text-black ">
-              <div class="ch-bar-colored">
-                <div class="ch-first-max-money"></div>
-                <div class="ch-sec-max-money"></div>
-              </div>
-              <div class="text-muted ch-goal-money ">4M Max</div>
-            
-            </div>
-            <div class="ch-description pt-1">SOFT CAP</div>
-
-            <p class="ch-bar-subtitle mt-3">Fixed token edition 8.000.000 BITS</p>
-
             <div>
-              <button class="btn btn-danger ch-btn-tokens py-2 px-4 ">Buy Tokens 47% Off</button>
+              <div id="ch-countdown-hours" class="ch-countdown-hours mx-1 fw-bold fs-5"></div>
+              <p class="ch-caption mx-2 p-1 ">Hours</p>
             </div>
-            <!--trebuie sa gasesc alte icons  si sa ma clarific cu spatiu ??? -->
-            <div class="mt-3 ">
-              <img src="payment/cc-visa.svg" width="35" height="35" alt="">
-              <img src="payment/cc-mastercard.svg" width="35" height="35" alt="">
-              <img src="payment/bitcoin.svg" width="35" height="35" alt="">
-              <img src="payment/cc-paypal.svg" width="35" height="35" alt="">
+            <div>
+              <div id="ch-countdown-minutes" class="ch-countdown-minutes mx-1 fw-bold fs-5"></div>
+              <p class="ch-caption mx-1 p-1">Minutes</p>
             </div>
-          </div>
-          
+            <div>
+              <div id="ch-countdown-seconds" class="ch-countdown-seconds mx-1 fw-bold fs-5"></div>
+              <p class="ch-caption mx-1 p-1">Seconds</p>
+            </div>
+
         </div>
 
-      </div>
-    </section>
+        <!-- amount of money-->
+        
+        <div>
+          <div class="d-inline-flex ch-max-money">
+            <p class=" mx-2 px-2">700K</p>
+            <p class=" mx-2 ">1.5M</p>
+            <p class=" mx-2 ch-max-money-last-child">3M</p>
+          </div>
+        </div>
+        
+        <!--  loading bar -->
+        <div class="ch-bar-loading text-black ">
+          <div class="ch-bar-colored">
+            <div class="ch-first-max-money"></div>
+            <div class="ch-sec-max-money"></div>
+          </div>
+          <div class="text-muted ch-goal-money ">4M Max</div>
+        
+        </div>
+        <div class="ch-description pt-1">SOFT CAP</div>
+        
+        <p class="ch-bar-subtitle mt-3">Fixed token edition 8.000.000 BITS</p>
+        
+        <div class="d-grid d-md-block ch-btn-tokens-position">
+          <button class="btn btn-danger ch-btn-tokens py-2 px-4 ">Buy Tokens 47% Off</button>
+        </div>
+        
+        <div class=" ch-payment-position mt-3 ">
+        
+          <img class="" src="payment/1490135017-visa_82256.svg" width="45" height="45" alt="">
+          <img class="" src="payment/Mastercard_icon-icons.com_60554.svg" width="45" height="45" alt="">
+          <img class="" src="payment/bitcoin_logo_icon_170476.svg" width="30" height="30" alt="">
+          <img class="me-1 ch-paypal-position" src="payment/Paypal-39_icon-icons.com_60555.svg" width="65" height="65" alt="">
+        
+        </div>
+        
 
-    <footer>
-      <div class="footer">
-        <a href="">
-          <i class="bi bi-chevron-down ch-icon-chevron-down fs-5 d-flex justify-content-center"></i>
-        </a>
-      </div>
-    </footer>
+      </section>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="footer">
+      <a href="">
+        <i class="bi bi-chevron-down ch-icon-chevron-down fs-5 d-flex justify-content-center"></i>
+      </a>
+    </div>
+  </footer>
+
+
   <script src="index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
-
 </html>

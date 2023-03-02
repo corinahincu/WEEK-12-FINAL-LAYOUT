@@ -1,0 +1,35 @@
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+}
+
+.ch-navbar-font-size {
+  font-size: 13px;
+}
+
+/* modal*/
+div .modal-header {
+  color: black;
+}
+
+img.logo-img {
+  fill: black;
+}
+
+form {
+  color: black;
+}
+
+/* Button trigger modal sign up */
+.ch-button-size {
+  font-size: 13px;
+}
+
+.ch-nodeco {
+  text-decoration: none;
+  color: white;
+
+    &.ch-nodeco:hover {
+      color: inherit;
+    }
+}
