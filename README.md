@@ -4,6 +4,10 @@
 
 desktop version :
 
-![image](https://user-images.githubusercontent.com/117738625/221347775-c5080ea7-a73b-450d-bcf8-e477f8ed449d.png)
+![image](https://user-images.githubusercontent.com/117738625/222309963-9fa97bcb-b45f-4484-bd32-914a7c09cdc3.png)
+
+mobile version:
+![image](https://user-images.githubusercontent.com/117738625/222310083-4832275e-e781-431c-9759-8bbd4ac6e848.png)
+
 
 
